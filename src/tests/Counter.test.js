@@ -14,8 +14,6 @@ test('renders counter message', () => {
   // Complete the unit test below based on the objective in the line above
   const msg = screen.getByText(/counter/i);
   expect(msg).toBeVisible();
-  const countOutput = screen.getByTestId('count');
-  expect(countOutput).toHaveTextContent('0');
 });
 
 test('should render initial count with value of 0', () => {
